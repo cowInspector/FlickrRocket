@@ -1,0 +1,30 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:scaleType="matrix"
+        android:contentDescription="@drawable/ic_launcher"
+        android:onClick="getNextImage"></ImageView>
+        
+    <!-- <TextView android:id="@+id/mainTextView"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/>
+    
+    <Button android:id="@+id/mainButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/buttonText"
+        android:onClick="onClick"/> -->
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_vertical|center_horizontal"/>
+
+</FrameLayout>
